@@ -43,13 +43,14 @@
 					<article id="sec_main">
 						<header>
 							<h2>癮食菜單</h2>
-							<p>細膩工法、對料理的執著，將最好的呈現給享用餐點的您</p>
+							<!-- <p>細膩工法、對料理的執著，將最好的呈現給享用餐點的您</p> -->
+							<p>來 吃 飯 bar ！</p>
 						</header>
 						<section class="wrapper style5">
-							<div class="inner">
+							<!-- <div class="inner"> -->
 
 								<!-- 1 -->
-								<div style="display: flex; justify-content: space-between;">
+								<!-- <div style="display: flex; justify-content: space-between;">
 									<div>
 										<h3>夏威夷酪梨清爽餐</h3>
 										<p style="margin-bottom: 12px;">蝦、蟹肉、魚肉、鳳梨、芒果、柚子、椰子、番茄、黃瓜、甘藍菜、紅洋蔥、青椒。<br />( 450至750卡 )</p>
@@ -57,10 +58,10 @@
 									</div>
 									<div><img src="images/circle1.jpg" alt="" class="circle_menu"></div>
 								</div>
-								<hr />
+								<hr /> -->
 
 								<!-- 2 -->
-								<div style="display: flex; justify-content: space-between;">
+								<!-- <div style="display: flex; justify-content: space-between;">
 									<div>
 										<h3>酪梨厚切牛餐盒</h3>
 										<p style="margin-bottom: 12px;">牛排、生菜、洋蔥、番茄、青椒、鹽、胡椒、大蒜、橄欖油、檸檬汁。<br />( 500至800卡 )</p>
@@ -68,10 +69,10 @@
 									</div>
 									<div><img src="images/menu2.jpg" alt="" class="circle_menu"></div>
 								</div>
-								<hr />
+								<hr /> -->
 
 								<!-- 3 -->
-								<div style="display: flex; justify-content: space-between;">
+								<!-- <div style="display: flex; justify-content: space-between;">
 									<div>
 										<h3>酪梨照燒雞腿餐盒</h3>
 										<p style="margin-bottom: 12px;">番茄、生菜、洋蔥酪梨、胡椒、大蒜、橄欖油。<br />( 400至700卡 )</p>
@@ -79,10 +80,10 @@
 									</div>
 									<div><img src="images/menu3.jpg" alt="" class="circle_menu"></div>
 								</div>
-								<hr />
+								<hr /> -->
 
 								<!-- 4 -->
-								<div style="display: flex; justify-content: space-between;">
+								<!-- <div style="display: flex; justify-content: space-between;">
 									<div>
 										<h3>酪梨清煎雞胸餐盒</h3>
 										<p style="margin-bottom: 12px;">生菜、番茄、黃瓜、紅洋蔥、胡蘿蔔、胡椒、大蒜、橄欖油、檸檬汁。<br />( 400至700卡 )</p>
@@ -90,18 +91,26 @@
 									</div>
 									<div><img src="images/menu4.jpg" alt="" class="circle_menu"></div>
 								</div>
-								<hr />
+								<hr /> -->
 
 								<!-- 5 -->
-								<div style="display: flex; justify-content: space-between;">
+								<!-- <div style="display: flex; justify-content: space-between;">
 									<div>
 										<h3>酪梨全蔬輕食</h3>
 										<p style="margin-bottom: 12px;">松子、核桃、腰果、杏仁片、生菜、番茄、黃瓜、紅洋蔥、胡蘿蔔、青椒、鳳梨、檸檬汁、鹽、胡椒、香草醬。<br />( 300至600卡 )</p>
 										<p>100元 ~ 250元</p>
 									</div>
 									<div><img src="images/menu5.jpg" alt="" class="circle_menu"></div>
-								</div>
+								</div> -->
 
+							<!-- </div> -->
+							<div class="inner menu_inner">
+								<div>
+									<img src="images/menu00.jpg" alt="" class="menu_box">
+								</div>
+								<div>
+									<img src="images/menu01.jpg" alt="" class="menu_box">
+								</div>
 							</div>
 						</section>
 					</article>
@@ -137,5 +146,24 @@
 <style>
 	hr {
 		margin-top: 10px;
+	}
+	.menu_box {
+		width: 500px;
+		border-radius: 1%;
+	}
+	@media screen and (max-width: 736px) {
+		.menu_box {
+			max-width: 420px;
+		}
+	}
+	.menu_inner {
+		display: flex;
+		justify-content: space-around;
+	}
+	@media screen and (max-width: 736px) {
+		.menu_inner {
+			display: block;
+			justify-content: center;
+		}
 	}
 </style>
